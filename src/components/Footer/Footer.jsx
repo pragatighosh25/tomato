@@ -9,10 +9,7 @@ const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            cupiditate, accusantium, aspernatur ipsum sapiente quam esse
-            expedita amet deserunt ipsam alias, eaque optio corrupti ratione
-            aliquam iste fuga ut omnis?
+            Tomato is your go-to food ordering platform, delivering delicious meals from your favorite restaurants straight to your doorstep. With a smooth ordering experience, real-time updates, and secure payments, Tomato makes food delivery fast, simple, and satisfying. Eat fresh, eat happy — only with Tomato!
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
