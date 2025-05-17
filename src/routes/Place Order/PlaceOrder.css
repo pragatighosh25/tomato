@@ -39,3 +39,76 @@
 .place-order .cart-total button{
   margin-top: 30px;
 }
+
+
+@media (max-width: 1050px) {
+  .place-order {
+    gap: 30px;
+  }
+
+  .place-order-left,
+  .place-order-right {
+    max-width: 48%;
+  }
+
+  .place-order-left .title {
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .place-order {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .place-order-left,
+  .place-order-right {
+    max-width: 100%;
+  }
+
+  .place-order-left .multi-fields {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .place-order-left .title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .place-order .cart-total button {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .place-order {
+    padding: 0 15px;
+  }
+
+  .place-order-left .title {
+    font-size: 22px;
+  }
+
+  .place-order-left input {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .place-order .cart-total button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .place-order-right .cart-total h2 {
+    font-size: 20px;
+  }
+
+  .place-order-right .cart-total-details p,
+  .place-order-right .cart-total-details b {
+    font-size: 14px;
+  }
+}
